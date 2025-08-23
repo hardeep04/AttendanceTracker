@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'Your_Secret_Key'
+SECRET_KEY = 'secret_key'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.sites',
     'social_django',
     'rest_framework',
-    'AT',
+    'AT', #my-app
 ]
 
 MIDDLEWARE = [
@@ -120,7 +120,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
@@ -147,7 +147,6 @@ LOGOUT_URL = 'logout'
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/login'
 
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = 'Your_Client_ID'
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'Your_Client_Secret'
-
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = 'your_client_id'
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'your_client_secret'
 

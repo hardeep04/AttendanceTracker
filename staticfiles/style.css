@@ -1,0 +1,79 @@
+body {
+    background-color: #f2f2f2;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .login-card {
+    background-color: white;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .google-logo {
+    width: 70px;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+  }
+ 
+  .google-box {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 20px ;
+    border-radius: 999px; /* this makes it fully oval */
+    border: 1px solid #dadce0;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #3c4043;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .google-box:hover {
+    box-shadow: 0 4px 8px rgba(60, 64, 67, 0.2);
+  }
+  
+  .google-box img {
+    height: 20px;
+  }
+  
+  
+  .login-title {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .subtitle {
+    text-align: center;
+    color: gray;
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .btn-google {
+    background-color: #4285f4;
+    color: white;
+  }
+  
+  .btn-google:hover {
+    background-color: #357ae8;
+  }
+  
+  .form-control:focus {
+    box-shadow: none;
+    border-color: #4285f4;
+  }
+  
